@@ -46,7 +46,7 @@ const BaseInput = styled.input`
 
     &::placeholder {
         color: ${(props) => props.theme['gray-500']};
-        font-size: 0.99rem;
+        font-size: 0.99rem;}
 `
     
 export const TaskInput = styled(BaseInput)`
